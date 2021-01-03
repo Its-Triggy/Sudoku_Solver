@@ -1,4 +1,4 @@
-#Solves Sudoku puzzles
+#Solves Sudoku puzzle
 
 import numpy as np
 import sys
