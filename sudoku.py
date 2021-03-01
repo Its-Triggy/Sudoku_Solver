@@ -166,7 +166,7 @@ ux = 'Q'
 while ux.upper() !='R' and ux.upper()!='U':
     ux = input('[R]andom puzzle, or [U]ser input? Enter R or U :')
 
-if ux == 'R':
+if ux.upper() == 'R':
     puzzle = random.choice(puzzles)
     puz = np.array([[int(char) for char in puzzle[i*9:(i+1)*9]] for i in range(9)])
     done=True
